@@ -1,7 +1,11 @@
 const {argv} = require('node:process');
 
-let num = Number(argv[2]);
-if (isNaN(num) || num == 0) {
+lis =[];
+
+argv.forEach((val) => lis.push(val));
+
+let num = Number(lis[2]);
+if (isNaN(num) || num < 0) {
 	console.log("Missing size");
 }
 else
