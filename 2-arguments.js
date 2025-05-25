@@ -1,11 +1,6 @@
-const { argv, argc } = require('node:process');
+const { argv } = require('node:process');
 
-lis = [];
-argv.forEach((val) => {
-	lis.push(val)
-});
-
-if (lis.length < 3) {
+if (argv[2] == null) {
 	console.log("No argument");
 }
 else

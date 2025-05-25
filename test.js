@@ -1,9 +1,5 @@
-let numn = 78
-let x = Number(numn);
-y = x
+arr = [1, 3, 4];
 
-console.log(x);
-if (isNaN(numn))
-	console.log(x);
-else
-	console.log("tried");
+if (arr[3] == undefinied) {
+	console.log("done");
+}
