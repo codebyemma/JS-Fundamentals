@@ -5,10 +5,10 @@ lis =[];
 argv.forEach((val) => lis.push(val));
 
 let num = Number(lis[2]);
-if (isNaN(num) || num < 0) {
+if (isNaN(num)) {
 	console.log("Missing size");
 }
-else
+else if (num > 0)
 {
 	for(let i = 0; i < num; i++) {
 		let str = "";
