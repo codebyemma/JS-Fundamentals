@@ -4,4 +4,4 @@ if (argv[2] == null) {
 	console.log("No argument");
 }
 else
-	console.log("Arguments found");
+	console.log("Argument found");
